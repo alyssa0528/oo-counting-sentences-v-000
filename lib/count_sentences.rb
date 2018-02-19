@@ -17,7 +17,7 @@ class String
   def count_sentences
     binding.pry 
     string_array = self.split(/[.!?]/)
-    string_array.delete(" ")
+    string_array.delete("")
     string_array.length 
   end
 end
